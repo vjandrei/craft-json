@@ -12,7 +12,7 @@
      'devMode' => true,
      'siteUrl' => 'http://localhost:8888/',
      'environmentVariables' => array(
-       'basePath' => '/Users/Andreas-air/Documents/_demot/craft/Craft-2.6.2968/craft/public',
+       'basePath' => '/Users/Andreas-air/Documents/_demot/craft/Craft-2.6.2968/craft',
        'baseUrl'  => 'http://craft-demo2:8888/',
      ),
      'testToEmailAddress' => 'dev@email.com',
