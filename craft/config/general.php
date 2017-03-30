@@ -7,27 +7,23 @@
  * You can see a list of the default settings in craft/app/etc/config/defaults/general.php
  */
 
-return array(
+ return array(
+   'localhost' => array(
+     'devMode' => true,
+     'siteUrl' => 'http://localhost:8888/',
+     'environmentVariables' => array(
+       'basePath' => '/Users/Andreas-air/Documents/_demot/craft/Craft-2.6.2968/craft/public',
+       'baseUrl'  => 'http://craft-demo2:8888/',
+     ),
+     'testToEmailAddress' => 'dev@email.com',
+   ),
 
-	// Base site URL
-	'siteUrl' => null,
-
-	// Environment-specific variables (see https://craftcms.com/docs/multi-environment-configs#environment-specific-variables)
-	'environmentVariables' => array(),
-
-	// Default Week Start Day (0 = Sunday, 1 = Monday...)
-	'defaultWeekStartDay' => 0,
-
-	// Enable CSRF Protection (recommended, will be enabled by default in Craft 3)
-	'enableCsrfProtection' => true,
-
-	// Whether "index.php" should be visible in URLs (true, false, "auto")
-	'omitScriptNameInUrls' => 'auto',
-
-	// Control Panel trigger word
-	'cpTrigger' => 'admin',
-
-	// Dev Mode (see https://craftcms.com/support/dev-mode)
-	'devMode' => false,
-
-);
+   // Use IP address of your droplet below
+   '46.101.171.179' => array(
+     'siteUrl' => 'http://207.154.227.223/',
+     'environmentVariables' => array(
+       'basePath' => '/var/www/html/craft',
+       'baseUrl'  => 'http://207.154.227.223/craft',
+     )
+   )
+ );
