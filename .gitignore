@@ -3,4 +3,5 @@
 /craft/plugins/
 /craft/storage/
 /craft/config/db.php
+/craft/config/general.php
 /.DS_Store
